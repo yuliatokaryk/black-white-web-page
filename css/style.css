@@ -1,0 +1,239 @@
+body, html {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+hr {
+  border-style: none;
+  border-bottom: 2px solid #F0F0F0; 
+}
+
+.content-wrapper {
+  max-width: 100%;
+  padding: 4%;
+}
+
+.header {
+  background-image: url('../img/apples.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand p {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.navbar-item {
+  display:inline;
+  margin-right: 100px;
+}
+
+.last-nav-item {
+  margin-right: 0;
+}
+
+.header-navbar a {
+  color: #fff;
+}
+
+.header-heading-wrapper, .header-button {
+  text-align: center;
+}
+
+.header-heading-wrapper {
+  margin: 14% 0 12%;
+}
+
+.header-heading {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  margin: 1%;
+  font-weight: 400;
+}
+
+.header-heading span {
+  font-size: 6rem;
+}
+
+.header-button button{
+  padding: 1% 6%;
+  margin-bottom: 5%;
+  color: #fff;
+  font-size: 1rem;
+  background-color: rgb(52, 54, 56, 0.8);
+  border: 3px solid  #fff;
+}
+
+.main-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10%;
+  margin: 3% auto;
+}
+
+.item-left {
+  font-size: 1.5em;
+}
+
+.cards {
+  background-color: #F3F3F3;
+}
+
+.cards-heading {
+  text-align: center;
+  margin: 5% 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5% 0;
+  position: relative;
+}
+
+.card-item p {
+  text-align: center;
+  width: 35%;
+  padding: 1%;
+}
+
+.card-item-img {
+  width: 65%;
+}
+
+.card-item-3::after, .card-item-1::after, 
+.card-item-2::after, .card-item-4::after {
+  position: absolute;
+  bottom: 4%;
+  color: #fff;
+}
+
+.card-item-2::after, .card-item-4::after {
+  content: "Januari'15 South America";
+  left: 38.4%;
+}
+
+.card-item-3::after, .card-item-1::after {
+  content: "Januari'15 South France";
+  left: 2%;
+}
+
+.card-item-3::before, .card-item-1::before, 
+.card-item-2::before, .card-item-4::before {
+  position: absolute;
+  top: 4%;
+  color: #F3F3F3;
+  border: 3px solid #F3F3F3;
+  background-color: rgb(52, 54, 56, 0.6);
+  padding: 0.5%;
+}
+
+.card-item-1::before, .card-item-3::before {
+  right: 38.4%;
+}
+
+.card-item-2::before, .card-item-4::before {
+  right: 2%;
+}
+
+.card-item-1::before, .card-item-2::before {
+  content: "172 \2665";
+}
+
+.card-item-3::before {
+  content: "20 \2665";
+}
+
+.card-item-4::before {
+  content: "50 \2665";
+}
+
+.cards-section-form {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-size: 2em;
+  margin: 0 auto;
+}
+
+.cards-section-form p {
+  margin: 0;
+}
+
+.input, .submit-button {
+  display: inline-block;
+  padding: 2%;
+  border-radius: 0;
+}
+
+.cards-section-form .input, .cards-section-form .submit-button {
+  font-size: 0.5em;
+}
+
+.cards-section-form .submit-button {
+  width: 20%;
+}
+
+.cards-section-form .input {
+  width: 75%;
+}
+
+.input {
+  color: #343638;
+  border: 1px solid #343638;
+  background-color: #f3f3f3;
+}
+
+.submit-button {
+  color: #fff;
+  background-color: #343638;
+  border: 1px solid #343638;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2%;
+}
+
+.footer-item-text, .copyrght, .footer-item-text a {
+  color: #9E9E9E;
+}
+
+.contact-item {
+  line-height: 1.8rem;
+}
+
+.time {
+  color: #E8E8E8;
+}
+
+.footer-navbar {
+  margin: 2% 0 -2%;
+}
+
+.footer-nav {
+  margin-right: 10px;
+}
